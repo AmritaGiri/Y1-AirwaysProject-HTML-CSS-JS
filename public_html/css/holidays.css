@@ -1,0 +1,402 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May 2020, 13:03:06
+    Author     : Ciaran
+*/
+body
+{
+    background-color: white;
+}
+
+
+#container
+{
+    position     : relative;
+    width        : 1500px;
+    height       : 6393px;
+    margin-left  : auto;
+    margin-right : auto;
+
+}
+
+#banner
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100px;
+    background-color: whitesmoke;
+    border: thin gold solid;             
+
+}
+
+div #list
+{
+    position: absolute;
+    width: 175px;
+    height: 1000px;
+    top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list ul
+{
+
+    list-style-type: none;
+
+}
+
+.list_word
+{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.button
+{
+     position: absolute;
+    left: 25%;
+    top: 10%;
+    height: 80%;
+    width: 23%;
+    border: 2px solid orange; /* round edge of button*/
+    background-color: white;
+    font-family: 'Merriweather', serif;
+    color: black;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+
+.button:hover
+{
+    background-color: orange;
+    color: white;
+}
+
+.button1
+{
+    left: 60%;
+}
+
+#about
+{
+    position: absolute;
+    top: 20px;
+    right: 510px;
+    width: 115px;
+    height: 50px;
+    text-align: left;
+    border-right: thin solid orange;
+}
+#main_content1
+{
+    position: relative;
+
+    left:0px;
+    width:100%;
+    height:360px;
+    border: thin orange solid;
+    margin-top: 10px;
+}
+
+#image
+{
+    width: 100%;
+    height: 100%;
+    filter: brightness(150%);
+
+}
+
+#main_content2
+{
+    position: relative;
+    left:0px;
+    width:99.35%;
+    height:5900px;
+    margin-top: 10px;
+    padding:5px;
+    background-color: whitesmoke;
+
+}
+
+
+
+div#melbourne
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 570px;
+    border: orange solid thin;
+
+}
+
+#melbourne_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#melbourne_about
+{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#melbourne_image
+{
+    position: absolute;
+    top: 75px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+div#sydney
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 570px;
+    border: orange solid thin;
+}
+
+#sydney_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#sydney_about
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#sydney_image
+{
+    position: absolute;
+    top: 75px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+div#brisbane
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 550px;
+    border: orange solid thin;
+}
+
+#brisbane_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#brisbane_about
+{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#brisbane_image
+{
+    position: absolute;
+    top: 75px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+div#adelaide
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 570px;
+    border: orange solid thin;
+}
+
+#adelaide_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#adelaide_about
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#adelaide_image
+{
+    position: absolute;
+    top: 75px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+
+div#perth
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 570px;
+    border: orange solid thin;
+}
+
+#perth_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#perth_about
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#perth_image
+{
+    position: absolute;
+    top: 75px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+div#cranberra
+{
+    position: relative;
+    left: 230px;
+    width: 80%;
+    height: 570px;
+    border: orange solid thin;
+}
+
+#cranberra_name
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+#cranberra_about
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 800px;
+    height: 400px;
+
+}
+
+#cranberra_image
+{
+    position: absolute;
+    top: 90px;
+    left:10px;
+    width: 600px;
+    height: 500px;
+}
+
+.border
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white ;
+    border-radius: 10px;
+}
+
+.border_list_and_info
+{
+    border: thin orange solid;
+}
+
+.name
+{
+    color: black;
+    font-family:Action-Man; 
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    border: thin black solid;
+
+}
+
+.content
+{
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+
+
+img
+{
+    width: 300px;
+    height: 400px;
+    opacity: 1.0;
+}
+
+
+
